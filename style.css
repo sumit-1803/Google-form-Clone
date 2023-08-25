@@ -1,0 +1,231 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    background-color: #f0ebf8;
+}
+title{
+    font-size: medium;
+}
+.blue{
+    color: rgba(0, 0, 255, 0.811);width: 200px;
+}
+.img{
+  margin-left: 180px;
+}
+.c1{
+    width: 280px;
+    display: flex;
+    letter-spacing: .2px;
+}
+.space{
+    width: 370px;
+    display: flex;
+}
+.fl{
+
+    background-color: white;
+        padding: 25px;
+        border: .5px solid rgb(176, 176, 176);
+        width: 600px;
+
+        padding-top: 10px;
+        
+        
+}   
+.paragraph{
+    display: block;
+
+    /* width: 270px; */
+}
+
+
+h1.heading{
+    font-weight: 550;
+    border: 1px solid rgb(176, 176, 176);
+    padding: 20px 213px;
+    background-color: white;
+    width: 224px;
+}
+.email{
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    margin-right: 10px;
+}
+.purple{
+    background-color: #673ab7;
+    margin-top: 10px;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    width:652px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cont{
+
+    margin-left: 30%;
+}
+.required{
+    color: rgb(221, 2, 2);
+    padding: 15px 25px;
+
+    background-color: white;
+        border: 1px solid rgb(176, 176, 176);
+        width:600px;
+        border-radius: 0 0 5px 5px;
+    
+}
+.red{
+    color: rgb(221, 2, 2);
+    margin-left: 5px;
+}
+.MCQ{
+    display: flex;  
+}
+.radio{
+    color: purple;
+}
+.outmcq{
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 600px;
+    
+}
+.options{
+    display: flex;flex-direction: column;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.spacing{
+    padding: 5px;
+
+    margin: 5px 0;
+}
+input{
+        margin-right: 10px;
+}
+
+
+.radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #8a2be2; 
+    border-radius: 50%; 
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.radio:checked {
+    border-color: white;
+    background-color: #8a2be2;
+}
+
+/* Style for purple checkboxes */
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #8a2be2; 
+    outline: none;
+    transition: border-color 0.3s;
+    position: relative;
+}
+
+.checkbox:checked {
+    border-color: white; 
+    background-color: #8a2be2;
+}
+.checkbox:checked::after {
+    content: '\2713'; 
+    position: absolute;
+    top: 2px; 
+    left: 6px; 
+    font-size: 16px; 
+    color: white; 
+}
+input.ans{
+    width: 300px;
+}
+input[type="text"].ans{
+    border: none;
+    margin-top: 30px;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    transition: border-color 0.5s;
+}
+input[type="text"]:focus {
+    outline: none; 
+    border-bottom: 3px solid purple ;
+}
+.dropdown{
+
+    padding :20px;
+}
+.outdrop{
+    margin-top: 30px;
+}
+.optn{
+    padding: 10px;
+}
+.optn1{
+    padding: 20px;
+    width: 90px;
+
+}
+.numcon{
+    display: flex;
+    margin-left: 65px;
+    width: 550px;
+}
+.nums{
+    padding: 5px;
+    width: 40px;
+    margin-left: 85px ;
+
+}
+.outcondn{
+    display: flex;
+}
+.condn{
+    margin-left: 53px;
+    padding: 5px;
+}
+.nums2{
+    margin-left: 28px;
+    width: 40px;
+    padding: 5px;
+}
+.grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: white;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+
